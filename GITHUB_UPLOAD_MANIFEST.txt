@@ -1,0 +1,53 @@
+═══════════════════════════════════════════════════════════════
+  GITHUB DEPLOYMENT - FILE UPLOAD MANIFEST
+═══════════════════════════════════════════════════════════════
+
+✅ UPLOAD THESE 5 FILES TO GITHUB (SAME DIRECTORY):
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. index.html                   68 KB
+   → Main dashboard (defaults to v1+v2 combined)
+
+2. v2-dashboard.html            64 KB  
+   → V2-only dashboard (locked to v2)
+
+3. analytics.html               24 KB
+   → Analytics explorer
+
+4. qualitative-insights.html    20 KB
+   → Qualitative insights page
+
+5. dashboard_data.js           128 KB  ⚠️ CRITICAL
+   → Contains all analysis data (MUST be in same folder)
+
+═══════════════════════════════════════════════════════════════
+RECOMMENDED DOCUMENTATION (Optional but helpful):
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+6. README.md                    12 KB  (Main documentation)
+7. GITHUB_DEPLOYMENT.md         8 KB   (Deployment guide)
+8. STABLE_FILES_FOR_GITHUB.md   10 KB  (This manifest + details)
+9. FINAL_CULTURE_ANALYSIS_REPORT.md (Analysis report)
+
+═══════════════════════════════════════════════════════════════
+VERIFICATION AFTER UPLOAD:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+After uploading and enabling GitHub Pages, verify:
+
+✅ Dashboard loads: https://[username].github.io/[repo]/index.html
+✅ Shows: "N = 8,671 Combined (v1+v2) Responses" (NOT "N = 0")
+✅ Navigation links work between all pages
+✅ No JavaScript errors in browser console (F12)
+✅ dashboard_data.js loads successfully (check Network tab)
+
+═══════════════════════════════════════════════════════════════
+CRITICAL REQUIREMENTS:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+⚠️  ALL 5 FILES MUST BE IN THE SAME DIRECTORY
+⚠️  dashboard_data.js filename must be exact (case-sensitive)
+⚠️  Use relative paths only (already configured)
+⚠️  Do NOT rename files without updating all references
+
+═══════════════════════════════════════════════════════════════
